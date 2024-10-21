@@ -1,4 +1,4 @@
-import { FileBlockConfig, videoBlockConfig, videoParse } from "@blocknote/core";
+import { FileBlockConfig, videoBlockConfig, videoParse } from "@endexai/blocknote-core";
 import { useState } from "react";
 import { RiVideoFill } from "react-icons/ri";
 

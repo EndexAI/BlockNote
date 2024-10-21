@@ -1,5 +1,5 @@
-import { assertEmpty, mergeCSSClasses } from "@blocknote/core";
-import { ComponentProps, elementOverflow, mergeRefs } from "@blocknote/react";
+import { assertEmpty, mergeCSSClasses } from "@endexai/blocknote-core";
+import { ComponentProps, elementOverflow, mergeRefs } from "@endexai/blocknote-react";
 import { forwardRef, useEffect, useRef } from "react";
 
 export const SuggestionMenuItem = forwardRef<

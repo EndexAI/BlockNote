@@ -3,12 +3,12 @@ import {
   InlineContentSchema,
   mergeCSSClasses,
   StyleSchema,
-} from "@blocknote/core";
+} from "@endexai/blocknote-core";
 import {
   BlockNoteViewRaw,
   Components,
   ComponentsContext,
-} from "@blocknote/react";
+} from "@endexai/blocknote-react";
 import { ComponentProps } from "react";
 
 import { Form } from "./input/Form.js";

@@ -4,7 +4,7 @@ import {
   InlineContentSchema,
   mergeCSSClasses,
   StyleSchema,
-} from "@blocknote/core";
+} from "@endexai/blocknote-core";
 import { ReactNode, useState } from "react";
 
 import { MdDragIndicator } from "react-icons/md";

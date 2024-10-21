@@ -269,7 +269,7 @@
             "server"
           ],
           "dependencies": {
-            "@blocknote/server-util": "latest"
+            "@endexai/blocknote-server-util": "latest"
           } as any
         },
         "title": "Rendering static documents",

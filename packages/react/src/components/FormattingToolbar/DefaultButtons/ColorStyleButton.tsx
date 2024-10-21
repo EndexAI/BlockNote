@@ -3,7 +3,7 @@ import {
   BlockSchema,
   InlineContentSchema,
   StyleSchema,
-} from "@blocknote/core";
+} from "@endexai/blocknote-core";
 import { useCallback, useMemo, useState } from "react";
 
 import { useComponentsContext } from "../../../editor/ComponentsContext.js";

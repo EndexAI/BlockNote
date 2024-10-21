@@ -1,5 +1,5 @@
 "use client";
-import { BlockNoteContext } from "@blocknote/react";
+import { BlockNoteContext } from "@endexai/blocknote-react";
 import { useTheme } from "nextra-theme-docs";
 import { examples } from "./generated/exampleComponents.gen";
 

@@ -4,7 +4,7 @@ import {
   checkBlockIsFileBlockWithPreview,
   InlineContentSchema,
   StyleSchema,
-} from "@blocknote/core";
+} from "@endexai/blocknote-core";
 import { useCallback, useMemo } from "react";
 import { RiImageAddFill } from "react-icons/ri";
 
