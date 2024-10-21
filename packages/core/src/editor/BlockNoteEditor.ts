@@ -94,6 +94,8 @@ import { inlineContentToNodes } from "../api/nodeConversions/blockToNode.js";
 import { nodeToBlock } from "../api/nodeConversions/nodeToBlock.js";
 import "../style.css";
 import { EditorView } from "prosemirror-view";
+import { BlockSelectPlugin } from "../extensions/BlockSelect/BlockSelectPlugin.js";
+import { Ghost } from "../extensions/Ghost/GhostPlugin.js";
 
 export type BlockNoteExtension =
   | AnyExtension
@@ -330,6 +332,8 @@ export class BlockNoteEditor<
     SSchema
   >;
 
+  private _selectedBlockIds: string[] = [];
+
   /**
    * The `uploadFile` method is what the editor uses when files need to be uploaded (for example when selecting an image to upload).
    * This method should set when creating the editor as this is application-specific.
@@ -519,7 +523,16 @@ export class BlockNoteEditor<
       ...blockNoteTipTapOptions,
       ...newOptions._tiptapOptions,
       content: initialContent,
-      extensions: tiptapExtensions,
+      extensions: [
+        ...tiptapExtensions,
+        Extension.create({
+          name: 'blockSelect',
+          addProseMirrorPlugins() {
+            return [BlockSelectPlugin()];
+          },
+        }),
+        Ghost.configure(),
+      ],
       editorProps: {
         ...newOptions._tiptapOptions?.editorProps,
         attributes: {
@@ -536,6 +549,15 @@ export class BlockNoteEditor<
           ),
         },
         transformPasted,
+      },
+      onUpdate: () => {
+        const ghostExtension = this._tiptapEditor.extensionManager.extensions.find(
+          (extension) => extension.name === "ghost"
+        );
+        if (ghostExtension?.options) {
+          ghostExtension.options["autocomplete"] = "";
+        }
+        this._tiptapEditor.view?.dispatch(this._tiptapEditor.state.tr);
       },
     };
 
@@ -1219,5 +1241,46 @@ export class BlockNoteEditor<
         ignoreQueryLength: pluginState?.ignoreQueryLength || false,
       })
     );
+  }
+
+  public selectBlocks(blockIds: string[]) {
+    if (!this._tiptapEditor.view) {return;}
+    
+    this._tiptapEditor.view.dispatch(
+      this._tiptapEditor.view.state.tr.setMeta('blockSelect', { type: "select", ids: blockIds })
+    );
+    this._selectedBlockIds = blockIds;
+  }
+
+  public deselectBlocks(blockIds: string[]) {
+    if (!this._tiptapEditor.view) {return;}
+
+    this._tiptapEditor.view.dispatch(
+      this._tiptapEditor.view.state.tr.setMeta('blockSelect', { type: "deselect", ids: blockIds })
+    );
+    this._selectedBlockIds = this._selectedBlockIds.filter(id => !blockIds.includes(id));
+  }
+
+  public clearBlockSelection() {
+    if (!this._tiptapEditor.view) {return;}
+
+    this._tiptapEditor.view.dispatch(
+      this._tiptapEditor.view.state.tr.setMeta('blockSelect', { type: "clear" })
+    );
+    this._selectedBlockIds = [];
+  }
+
+  public updateAutocompleteText(newAutocompleteText: string) {
+    const ghostExtension = this._tiptapEditor.extensionManager.extensions.find(
+      (extension) => extension.name === "ghost"
+    );
+    if (ghostExtension?.options) {
+      ghostExtension.options["autocomplete"] = newAutocompleteText;
+    }
+    this._tiptapEditor.view?.dispatch(this._tiptapEditor.state.tr);
+  }
+
+  public getSelectedBlockIds() {
+    return this._selectedBlockIds;
   }
 }
