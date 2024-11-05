@@ -4,7 +4,7 @@ import {
   getDefaultSlashMenuItems,
   InlineContentSchema,
   StyleSchema,
-} from "@blocknote/core";
+} from "@endexai/blocknote-core";
 import {
   RiEmotionFill,
   RiFile2Line,

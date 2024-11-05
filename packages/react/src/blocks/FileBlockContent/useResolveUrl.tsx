@@ -1,4 +1,4 @@
-import { BlockSchema, InlineContentSchema, StyleSchema } from "@blocknote/core";
+import { BlockSchema, InlineContentSchema, StyleSchema } from "@endexai/blocknote-core";
 import { useEffect, useState } from "react";
 import { useBlockNoteEditor } from "../../hooks/useBlockNoteEditor.js";
 

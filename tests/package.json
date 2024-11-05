@@ -1,5 +1,5 @@
 {
-  "name": "@blocknote/tests",
+  "name": "@endexai/blocknote-tests",
   "private": true,
   "version": "0.18.1",
   "scripts": {
@@ -17,11 +17,11 @@
     "react-dom": "^18.3.1"
   },
   "devDependencies": {
-    "@blocknote/ariakit": "^0.18.1",
-    "@blocknote/core": "^0.18.0",
-    "@blocknote/mantine": "^0.18.1",
-    "@blocknote/react": "^0.18.1",
-    "@blocknote/shadcn": "^0.18.1",
+    "@endexai/blocknote-ariakit": "^0.17.1",
+    "@endexai/blocknote-core": "^0.17.1",
+    "@endexai/blocknote-mantine": "^0.17.1",
+    "@endexai/blocknote-react": "^0.17.1",
+    "@endexai/blocknote-shadcn": "^0.17.1",
     "@playwright/experimental-ct-react": "^1.42.1",
     "@playwright/test": "^1.42.1",
     "eslint": "^8.10.0",

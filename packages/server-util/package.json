@@ -1,5 +1,5 @@
 {
-  "name": "@blocknote/server-util",
+  "name": "@endexai/blocknote-server-util",
   "homepage": "https://github.com/TypeCellOS/BlockNote",
   "private": false,
   "sideEffects": [
@@ -50,8 +50,8 @@
     "test-watch": "vitest watch"
   },
   "dependencies": {
-    "@blocknote/core": "^0.18.0",
-    "@blocknote/react": "^0.18.1",
+    "@endexai/blocknote-core": "^0.17.1",
+    "@endexai/blocknote-react": "^0.17.1",
     "@tiptap/core": "^2.7.1",
     "@tiptap/pm": "^2.7.1",
     "jsdom": "^21.1.0",

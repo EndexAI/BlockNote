@@ -1,3 +1,3 @@
-### @blocknote/core/src/blocks
+### @endexai/blocknote-core/src/blocks
 
 The default built-in blocks that ship with BlockNote

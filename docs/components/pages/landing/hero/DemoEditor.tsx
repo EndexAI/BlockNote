@@ -1,8 +1,8 @@
-import { uploadToTmpFilesDotOrg_DEV_ONLY } from "@blocknote/core";
-import "@blocknote/core/fonts/inter.css";
-import { useCreateBlockNote } from "@blocknote/react";
-import { BlockNoteView } from "@blocknote/mantine";
-import "@blocknote/mantine/style.css";
+import { uploadToTmpFilesDotOrg_DEV_ONLY } from "@endexai/blocknote-core";
+import "@endexai/blocknote-core/fonts/inter.css";
+import { useCreateBlockNote } from "@endexai/blocknote-react";
+import { BlockNoteView } from "@endexai/blocknote-mantine";
+import "@endexai/blocknote-mantine/style.css";
 import { useCallback, useMemo, useState } from "react";
 import YPartyKitProvider from "y-partykit/provider";
 import * as Y from "yjs";

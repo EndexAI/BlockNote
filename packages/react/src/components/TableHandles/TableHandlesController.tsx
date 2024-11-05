@@ -4,7 +4,7 @@ import {
   DefaultStyleSchema,
   InlineContentSchema,
   StyleSchema,
-} from "@blocknote/core";
+} from "@endexai/blocknote-core";
 import { FC, useCallback, useMemo, useState } from "react";
 
 import { FloatingPortal } from "@floating-ui/react";
@@ -148,7 +148,7 @@ export const TableHandlesController = <
             </div>
           )}
 
-        {/* note that the extend buttons are always shown (we don't look at isMounted etc, 
+        {/* note that the extend buttons are always shown (we don't look at isMounted etc,
         because otherwise the table slightly shifts when they unmount  */}
         <div
           ref={addOrRemoveRowsButton.ref}
