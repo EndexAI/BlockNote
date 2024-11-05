@@ -1,5 +1,5 @@
 {
-  "name": "@blocknote/mantine",
+  "name": "@endexai/blocknote-mantine",
   "homepage": "https://github.com/TypeCellOS/BlockNote",
   "private": false,
   "sideEffects": [
@@ -50,8 +50,8 @@
     "clean": "rimraf dist && rimraf types"
   },
   "dependencies": {
-    "@blocknote/core": "^0.19.0",
-    "@blocknote/react": "^0.19.0",
+    "@endexai/blocknote-core": "^0.19.0",
+    "@endexai/blocknote-react": "^0.19.0",
     "@mantine/core": "^7.10.1",
     "@mantine/hooks": "^7.10.1",
     "@mantine/utils": "^6.0.21",
@@ -82,5 +82,6 @@
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
-  }
+  },
+  "gitHead": "7529f4384bda16dac2a54b35f87abfe640c406a0"
 }

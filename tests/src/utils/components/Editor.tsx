@@ -1,13 +1,13 @@
-import { BlockNoteSchema, filterSuggestionItems } from "@blocknote/core";
-import "@blocknote/core/style.css";
-import { BlockNoteView } from "@blocknote/mantine";
-import "@blocknote/mantine/style.css";
+import { BlockNoteSchema, filterSuggestionItems } from "@endexai/blocknote-core";
+import "@endexai/blocknote-core/style.css";
+import { BlockNoteView } from "@endexai/blocknote-mantine";
+import "@endexai/blocknote-mantine/style.css";
 import {
   BlockNoteDefaultUI,
   SuggestionMenuController,
   getDefaultReactSlashMenuItems,
   useCreateBlockNote,
-} from "@blocknote/react";
+} from "@endexai/blocknote-react";
 
 import { Alert, insertAlert } from "../customblocks/Alert.js";
 import { Button } from "../customblocks/Button.js";

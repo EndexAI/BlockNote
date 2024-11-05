@@ -4,6 +4,6 @@
   "author": "yousefed",
   "tags": ["Basic", "Blocks", "Inline Content"],
   "dependencies": {
-    "@blocknote/xl-multi-column": "latest"
+    "@endexai/blocknote-xl-multi-column": "latest"
   }
 }

@@ -7,7 +7,7 @@ import {
   mergeCSSClasses,
   PartialTableContent,
   StyleSchema,
-} from "@blocknote/core";
+} from "@endexai/blocknote-core";
 import {
   MouseEvent as ReactMouseEvent,
   ReactNode,

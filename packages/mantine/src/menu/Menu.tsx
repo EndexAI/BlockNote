@@ -4,8 +4,8 @@ import {
 } from "@mantine/core";
 import { mergeRefs } from "@mantine/hooks";
 
-import { assertEmpty } from "@blocknote/core";
-import { ComponentProps } from "@blocknote/react";
+import { assertEmpty } from "@endexai/blocknote-core";
+import { ComponentProps } from "@endexai/blocknote-react";
 import {
   createContext,
   forwardRef,

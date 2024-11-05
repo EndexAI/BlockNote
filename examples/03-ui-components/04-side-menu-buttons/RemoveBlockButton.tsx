@@ -2,7 +2,7 @@ import {
   SideMenuProps,
   useBlockNoteEditor,
   useComponentsContext,
-} from "@blocknote/react";
+} from "@endexai/blocknote-react";
 import { MdDelete } from "react-icons/md";
 
 // Custom Side Menu button to remove the hovered block.

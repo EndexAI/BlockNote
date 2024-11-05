@@ -1,5 +1,5 @@
-import { assertEmpty } from "@blocknote/core";
-import { ComponentProps } from "@blocknote/react";
+import { assertEmpty } from "@endexai/blocknote-core";
+import { ComponentProps } from "@endexai/blocknote-react";
 import { ChevronRight } from "lucide-react";
 import { forwardRef, useMemo } from "react";
 

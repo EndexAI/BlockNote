@@ -1,4 +1,4 @@
-import { fileBlockConfig, fileParse } from "@blocknote/core";
+import { fileBlockConfig, fileParse } from "@endexai/blocknote-core";
 
 import {
   createReactBlockSpec,

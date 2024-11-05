@@ -55,7 +55,7 @@
             "Blocks"
           ],
           "dependencies": {
-            "@blocknote/xl-multi-column": "latest"
+            "@endexai/blocknote-xl-multi-column": "latest"
           } as any
         },
         "title": "Multi-Column Blocks",
@@ -78,7 +78,7 @@
             "Inline Content"
           ],
           "dependencies": {
-            "@blocknote/xl-multi-column": "latest"
+            "@endexai/blocknote-xl-multi-column": "latest"
           } as any
         },
         "title": "Default Schema Showcase",
@@ -294,7 +294,7 @@
             "server"
           ],
           "dependencies": {
-            "@blocknote/server-util": "latest"
+            "@endexai/blocknote-server-util": "latest"
           } as any
         },
         "title": "Rendering static documents",
@@ -822,7 +822,7 @@
             ""
           ],
           "dependencies": {
-            "@blocknote/xl-pdf-exporter": "latest",
+            "@endexai/blocknote-xl-pdf-exporter": "latest",
             "@react-pdf/renderer": "^4.0.0"
           } as any,
           "pro": true
@@ -845,7 +845,7 @@
             ""
           ],
           "dependencies": {
-            "@blocknote/xl-docx-exporter": "latest",
+            "@endexai/blocknote-xl-docx-exporter": "latest",
             "docx": "^9.0.2"
           } as any,
           "pro": true

@@ -6,8 +6,8 @@ import {
 } from "@mantine/core";
 import { mergeRefs } from "@mantine/hooks";
 
-import { assertEmpty } from "@blocknote/core";
-import { ComponentProps, elementOverflow } from "@blocknote/react";
+import { assertEmpty } from "@endexai/blocknote-core";
+import { ComponentProps, elementOverflow } from "@endexai/blocknote-react";
 import { forwardRef, useEffect, useRef } from "react";
 
 export const SuggestionMenuItem = forwardRef<

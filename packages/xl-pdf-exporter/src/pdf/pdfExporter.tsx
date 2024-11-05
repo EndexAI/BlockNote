@@ -9,7 +9,7 @@ import {
   InlineContentSchema,
   StyleSchema,
   StyledText,
-} from "@blocknote/core";
+} from "@endexai/blocknote-core";
 import {
   Document,
   Font,
