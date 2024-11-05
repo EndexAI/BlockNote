@@ -17,11 +17,11 @@
     "react-dom": "^18.3.1"
   },
   "devDependencies": {
-    "@endexai/blocknote-ariakit": "^0.17.2",
-    "@endexai/blocknote-core": "^0.17.2",
-    "@endexai/blocknote-mantine": "^0.17.2",
-    "@endexai/blocknote-react": "^0.17.2",
-    "@endexai/blocknote-shadcn": "^0.17.2",
+    "@endexai/blocknote-ariakit": "^0.17.3",
+    "@endexai/blocknote-core": "^0.17.3",
+    "@endexai/blocknote-mantine": "^0.17.3",
+    "@endexai/blocknote-react": "^0.17.3",
+    "@endexai/blocknote-shadcn": "^0.17.3",
     "@playwright/experimental-ct-react": "^1.42.1",
     "@playwright/test": "^1.42.1",
     "eslint": "^8.10.0",
