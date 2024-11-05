@@ -1,6 +1,6 @@
 {
   "name": "docs",
-  "version": "0.17.2",
+  "version": "0.17.5",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -9,11 +9,11 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@endexai/blocknote-ariakit": "^0.17.2",
-    "@endexai/blocknote-core": "^0.17.2",
-    "@endexai/blocknote-mantine": "^0.17.2",
-    "@endexai/blocknote-react": "^0.17.2",
-    "@endexai/blocknote-shadcn": "^0.17.2",
+    "@endexai/blocknote-ariakit": "^0.17.5",
+    "@endexai/blocknote-core": "^0.17.5",
+    "@endexai/blocknote-mantine": "^0.17.5",
+    "@endexai/blocknote-react": "^0.17.5",
+    "@endexai/blocknote-shadcn": "^0.17.5",
     "@headlessui/react": "^1.7.18",
     "@heroicons/react": "^2.1.4",
     "@mantine/core": "^7.10.1",
