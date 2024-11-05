@@ -6,7 +6,7 @@
     "*.css"
   ],
   "license": "MPL-2.0",
-  "version": "0.17.5",
+  "version": "0.17.6",
   "files": [
     "dist",
     "types",
@@ -51,8 +51,8 @@
     "clean": "rimraf dist && rimraf types"
   },
   "dependencies": {
-    "@endexai/blocknote-core": "^0.17.5",
-    "@endexai/blocknote-react": "^0.17.5",
+    "@endexai/blocknote-core": "^0.17.6",
+    "@endexai/blocknote-react": "^0.17.6",
     "@mantine/core": "^7.10.1",
     "@mantine/hooks": "^7.10.1",
     "@mantine/utils": "^6.0.21",

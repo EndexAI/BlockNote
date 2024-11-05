@@ -6,7 +6,7 @@
     "*.css"
   ],
   "license": "MPL-2.0",
-  "version": "0.17.5",
+  "version": "0.17.6",
   "files": [
     "dist",
     "types",
@@ -53,7 +53,7 @@
     "clean": "rimraf dist && rimraf types"
   },
   "dependencies": {
-    "@endexai/blocknote-core": "^0.17.5",
+    "@endexai/blocknote-core": "^0.17.6",
     "@floating-ui/react": "^0.26.4",
     "@tiptap/core": "^2.7.1",
     "@tiptap/react": "^2.7.1",
