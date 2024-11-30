@@ -1,5 +1,5 @@
-import { BlockNoteSchema, defaultStyleSpecs } from "@blocknote/core";
-import "@blocknote/core/fonts/inter.css";
+import { BlockNoteSchema, defaultStyleSpecs } from "@endexai/blocknote-core";
+import "@endexai/blocknote-core/fonts/inter.css";
 import {
   createReactStyleSpec,
   FormattingToolbar,
@@ -9,9 +9,9 @@ import {
   useBlockNoteEditor,
   useComponentsContext,
   useCreateBlockNote,
-} from "@blocknote/react";
-import { BlockNoteView } from "@blocknote/mantine";
-import "@blocknote/mantine/style.css";
+} from "@endexai/blocknote-react";
+import { BlockNoteView } from "@endexai/blocknote-mantine";
+import "@endexai/blocknote-mantine/style.css";
 
 const small = createReactStyleSpec(
   {

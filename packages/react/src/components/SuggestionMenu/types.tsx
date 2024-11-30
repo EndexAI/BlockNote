@@ -1,4 +1,4 @@
-import { DefaultSuggestionItem } from "@blocknote/core";
+import { DefaultSuggestionItem } from "@endexai/blocknote-core";
 
 /**
  * Although any arbitrary data can be passed as suggestion items, the built-in

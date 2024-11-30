@@ -14,7 +14,7 @@ import {
   PropSchema,
   propsToAttributes,
   StyleSchema,
-} from "@blocknote/core";
+} from "@endexai/blocknote-core";
 import {
   NodeViewContent,
   NodeViewProps,

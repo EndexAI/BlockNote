@@ -1,4 +1,4 @@
-import { DefaultStyleSchema, StyleMapping } from "@blocknote/core";
+import { DefaultStyleSchema, StyleMapping } from "@endexai/blocknote-core";
 import { IRunPropertiesOptions } from "docx";
 
 export const docxStyleMappingForDefaultSchema: StyleMapping<

@@ -1,4 +1,4 @@
-import { DefaultGridSuggestionItem } from "@blocknote/core";
+import { DefaultGridSuggestionItem } from "@endexai/blocknote-core";
 
 import { SuggestionMenuProps } from "../types.js";
 

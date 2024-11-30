@@ -5,7 +5,7 @@ import {
   InlineContentSchema,
   StyleSchema,
   UiElementPosition,
-} from "@blocknote/core";
+} from "@endexai/blocknote-core";
 
 export type LinkToolbarProps = Omit<LinkToolbarState, keyof UiElementPosition> &
   Pick<

@@ -1,5 +1,5 @@
 {
-  "name": "@blocknote/shadcn",
+  "name": "@endexai/blocknote-shadcn",
   "homepage": "https://github.com/TypeCellOS/BlockNote",
   "private": false,
   "sideEffects": [
@@ -50,8 +50,8 @@
     "clean": "rimraf dist && rimraf types"
   },
   "dependencies": {
-    "@blocknote/core": "^0.19.2",
-    "@blocknote/react": "^0.19.2",
+    "@endexai/blocknote-core": "^0.19.2",
+    "@endexai/blocknote-react": "^0.19.2",
     "@hookform/resolvers": "^3.6.0",
     "@radix-ui/react-dropdown-menu": "^2.0.6",
     "@radix-ui/react-label": "^2.0.2",
@@ -99,5 +99,6 @@
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
-  }
+  },
+  "gitHead": "7529f4384bda16dac2a54b35f87abfe640c406a0"
 }

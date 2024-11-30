@@ -1,10 +1,10 @@
-import type { BlockNoteEditor } from "@blocknote/core";
+import type { BlockNoteEditor } from "@endexai/blocknote-core";
 import {
   UniqueID,
   getBlockInfo,
   getNearestBlockPos,
   nodeToBlock,
-} from "@blocknote/core";
+} from "@endexai/blocknote-core";
 import { EditorState, Plugin } from "prosemirror-state";
 import { dropPoint } from "prosemirror-transform";
 import { EditorView } from "prosemirror-view";

@@ -1,5 +1,5 @@
 {
-  "name": "@blocknote/react",
+  "name": "@endexai/blocknote-react",
   "homepage": "https://github.com/TypeCellOS/BlockNote",
   "private": false,
   "sideEffects": [
@@ -52,7 +52,7 @@
     "clean": "rimraf dist && rimraf types"
   },
   "dependencies": {
-    "@blocknote/core": "^0.19.2",
+    "@endexai/blocknote-core": "^0.19.2",
     "@floating-ui/react": "^0.26.4",
     "@tiptap/core": "^2.7.1",
     "@tiptap/react": "^2.7.1",
@@ -89,5 +89,5 @@
     "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
-  "gitHead": "d5e8c96e2ad5f6832da60bc3c9acd3f6c16c25c5"
+  "gitHead": "7529f4384bda16dac2a54b35f87abfe640c406a0"
 }

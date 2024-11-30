@@ -5,7 +5,7 @@ import {
   DefaultProps,
   InlineContentSchema,
   StyleSchema,
-} from "@blocknote/core";
+} from "@endexai/blocknote-core";
 import { useCallback, useMemo } from "react";
 import { IconType } from "react-icons";
 import {

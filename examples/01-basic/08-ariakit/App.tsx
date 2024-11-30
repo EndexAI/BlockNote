@@ -1,7 +1,7 @@
-import "@blocknote/core/fonts/inter.css";
-import { useCreateBlockNote } from "@blocknote/react";
-import { BlockNoteView } from "@blocknote/ariakit";
-import "@blocknote/ariakit/style.css";
+import "@endexai/blocknote-core/fonts/inter.css";
+import { useCreateBlockNote } from "@endexai/blocknote-react";
+import { BlockNoteView } from "@endexai/blocknote-ariakit";
+import "@endexai/blocknote-ariakit/style.css";
 
 export default function App() {
   // Creates a new editor instance.

@@ -3,22 +3,23 @@ import {
   combineByGroup,
   filterSuggestionItems,
   locales,
-} from "@blocknote/core";
-import "@blocknote/core/fonts/inter.css";
-import { BlockNoteView } from "@blocknote/mantine";
-import "@blocknote/mantine/style.css";
+} from "@endexai/blocknote-core";
+import "@endexai/blocknote-core/fonts/inter.css";
+import { BlockNoteView } from "@endexai/blocknote-mantine";
+import "@endexai/blocknote-mantine/style.css";
 import {
   SuggestionMenuController,
   getDefaultReactSlashMenuItems,
   useCreateBlockNote,
-} from "@blocknote/react";
+} from "@endexai/blocknote-react";
 import {
   getMultiColumnSlashMenuItems,
   multiColumnDropCursor,
   locales as multiColumnLocales,
   withMultiColumn,
-} from "@blocknote/xl-multi-column";
+} from "@endexai/blocknote-xl-multi-column";
 import { useMemo } from "react";
+
 export default function App() {
   // Creates a new editor instance.
   const editor = useCreateBlockNote({

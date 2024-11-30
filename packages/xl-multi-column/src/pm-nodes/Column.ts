@@ -1,4 +1,4 @@
-import { createStronglyTypedTiptapNode } from "@blocknote/core";
+import { createStronglyTypedTiptapNode } from "@endexai/blocknote-core";
 
 import { createColumnResizeExtension } from "../extensions/ColumnResize/ColumnResizeExtension.js";
 

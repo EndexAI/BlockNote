@@ -1,5 +1,5 @@
 @import "./tailwindStyles.css";
-@import url("@blocknote/react/style.css");
+@import url("@endexai/blocknote-react/style.css");
 
 @tailwind components;
 @tailwind utilities;

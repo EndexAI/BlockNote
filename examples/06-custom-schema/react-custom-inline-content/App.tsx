@@ -1,11 +1,11 @@
-import { BlockNoteSchema, defaultInlineContentSpecs } from "@blocknote/core";
-import "@blocknote/core/fonts/inter.css";
+import { BlockNoteSchema, defaultInlineContentSpecs } from "@endexai/blocknote-core";
+import "@endexai/blocknote-core/fonts/inter.css";
 import {
   createReactInlineContentSpec,
   useCreateBlockNote,
-} from "@blocknote/react";
-import { BlockNoteView } from "@blocknote/mantine";
-import "@blocknote/mantine/style.css";
+} from "@endexai/blocknote-react";
+import { BlockNoteView } from "@endexai/blocknote-mantine";
+import "@endexai/blocknote-mantine/style.css";
 
 const mention = createReactInlineContentSpec(
   {

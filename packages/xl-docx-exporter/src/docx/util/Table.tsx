@@ -1,4 +1,4 @@
-import { Exporter, InlineContentSchema, TableContent } from "@blocknote/core";
+import { Exporter, InlineContentSchema, TableContent } from "@endexai/blocknote-core";
 import {
   Table as DocxTable,
   Paragraph,
