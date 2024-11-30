@@ -1,11 +1,11 @@
-import { FileBlockConfig } from "@blocknote/core";
+import { FileBlockConfig } from "@endexai/blocknote-core";
 import {
   AddFileButton,
   createReactBlockSpec,
   DefaultFilePreview,
   FileAndCaptionWrapper,
   ReactCustomBlockRenderProps,
-} from "@blocknote/react";
+} from "@endexai/blocknote-react";
 
 import { RiFilePdfFill } from "react-icons/ri";
 

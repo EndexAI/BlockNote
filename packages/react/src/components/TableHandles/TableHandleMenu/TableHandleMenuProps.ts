@@ -5,7 +5,7 @@ import {
   InlineContentSchema,
   SpecificBlock,
   StyleSchema,
-} from "@blocknote/core";
+} from "@endexai/blocknote-core";
 
 export type TableHandleMenuProps<
   I extends InlineContentSchema = DefaultInlineContentSchema,

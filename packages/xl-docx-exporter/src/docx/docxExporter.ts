@@ -6,7 +6,7 @@ import {
   InlineContentSchema,
   StyleSchema,
   StyledText,
-} from "@blocknote/core";
+} from "@endexai/blocknote-core";
 import {
   AlignmentType,
   Document,
@@ -21,7 +21,7 @@ import {
   TextRun,
 } from "docx";
 
-import { Exporter, ExporterOptions } from "@blocknote/core";
+import { Exporter, ExporterOptions } from "@endexai/blocknote-core";
 import { corsProxyResolveFileUrl } from "@shared/api/corsProxy.js";
 import { loadFileBuffer } from "@shared/util/fileUtil.js";
 

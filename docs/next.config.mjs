@@ -20,7 +20,7 @@ const withAnalyzer = analyzer({ enabled: false });
 
 const nextConfig = withAnalyzer(
   withNextra({
-    // transpilePackages: ["@blocknote/example-react-custom-styles"],
+    // transpilePackages: ["@endexai/blocknote-example-react-custom-styles"],
     images: {
       remotePatterns: [
         {
@@ -124,8 +124,8 @@ const nextConfig = withAnalyzer(
     },
     webpack: (config, { isServer }) => {
       config.externals.push({
-        // "@blocknote/core": "bncore",
-        // "@blocknote/react": "bnreact",
+        // "@endexai/blocknote-core": "bncore",
+        // "@endexai/blocknote-react": "bnreact",
         // ...
       });
 
@@ -158,8 +158,8 @@ const nextConfig = withAnalyzer(
         ...alias,
         // Comment out the lines below to load a built version of blocknote
         // or, keep as is to load live from sources with live reload working
-        // "@blocknote/core": path.resolve(__dirname, "../packages/core/src/"),
-        // "@blocknote/react": path.resolve(__dirname, "../packages/react/src/"),
+        // "@endexai/blocknote-core": path.resolve(__dirname, "../packages/core/src/"),
+        // "@endexai/blocknote-react": path.resolve(__dirname, "../packages/react/src/"),
       };
     },
   }),

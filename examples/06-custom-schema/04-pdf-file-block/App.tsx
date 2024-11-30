@@ -3,15 +3,15 @@ import {
   defaultBlockSpecs,
   filterSuggestionItems,
   insertOrUpdateBlock,
-} from "@blocknote/core";
-import "@blocknote/core/fonts/inter.css";
-import { BlockNoteView } from "@blocknote/mantine";
-import "@blocknote/mantine/style.css";
+} from "@endexai/blocknote-core";
+import "@endexai/blocknote-core/fonts/inter.css";
+import { BlockNoteView } from "@endexai/blocknote-mantine";
+import "@endexai/blocknote-mantine/style.css";
 import {
   SuggestionMenuController,
   getDefaultReactSlashMenuItems,
   useCreateBlockNote,
-} from "@blocknote/react";
+} from "@endexai/blocknote-react";
 
 import { RiFilePdfFill } from "react-icons/ri";
 

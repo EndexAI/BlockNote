@@ -4,7 +4,7 @@ import {
   StyleSchema,
   SuggestionMenuState,
   filterSuggestionItems,
-} from "@blocknote/core";
+} from "@endexai/blocknote-core";
 import {
   UseFloatingOptions,
   flip,

@@ -1,4 +1,4 @@
-import { FileBlockConfig } from "@blocknote/core";
+import { FileBlockConfig } from "@endexai/blocknote-core";
 import { ReactNode, useCallback, useEffect, useState } from "react";
 import { RiFile2Line } from "react-icons/ri";
 

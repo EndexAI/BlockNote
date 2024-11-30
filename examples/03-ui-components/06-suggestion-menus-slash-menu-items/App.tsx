@@ -2,16 +2,16 @@ import {
   BlockNoteEditor,
   filterSuggestionItems,
   PartialBlock,
-} from "@blocknote/core";
-import "@blocknote/core/fonts/inter.css";
+} from "@endexai/blocknote-core";
+import "@endexai/blocknote-core/fonts/inter.css";
 import {
   DefaultReactSuggestionItem,
   getDefaultReactSlashMenuItems,
   SuggestionMenuController,
   useCreateBlockNote,
-} from "@blocknote/react";
-import { BlockNoteView } from "@blocknote/mantine";
-import "@blocknote/mantine/style.css";
+} from "@endexai/blocknote-react";
+import { BlockNoteView } from "@endexai/blocknote-mantine";
+import "@endexai/blocknote-mantine/style.css";
 import { HiOutlineGlobeAlt } from "react-icons/hi";
 
 // Custom Slash Menu item to insert a block after the current one.

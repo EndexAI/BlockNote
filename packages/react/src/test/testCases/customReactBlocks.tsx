@@ -7,7 +7,7 @@ import {
   defaultBlockSpecs,
   defaultProps,
   uploadToTmpFilesDotOrg_DEV_ONLY,
-} from "@blocknote/core";
+} from "@endexai/blocknote-core";
 import { createContext, useContext } from "react";
 
 import { ReactFileBlock } from "../../blocks/FileBlockContent/FileBlockContent.js";

@@ -7,7 +7,7 @@ import {
   blockToNode,
   nodeToBlock,
   partialBlockToBlockForTesting,
-} from "@blocknote/core";
+} from "@endexai/blocknote-core";
 
 import { multiColumnSchemaTestCases } from "./testCases.js";
 

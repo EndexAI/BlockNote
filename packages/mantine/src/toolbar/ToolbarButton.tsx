@@ -6,8 +6,8 @@ import {
   Tooltip as MantineTooltip,
 } from "@mantine/core";
 
-import { assertEmpty, isSafari } from "@blocknote/core";
-import { ComponentProps } from "@blocknote/react";
+import { assertEmpty, isSafari } from "@endexai/blocknote-core";
+import { ComponentProps } from "@endexai/blocknote-react";
 import { forwardRef } from "react";
 
 export const TooltipContent = (props: {

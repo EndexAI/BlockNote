@@ -3,7 +3,7 @@ import {
   checkBlockIsFileBlock,
   InlineContentSchema,
   StyleSchema,
-} from "@blocknote/core";
+} from "@endexai/blocknote-core";
 import { useEffect, useState } from "react";
 import { RiImageEditFill } from "react-icons/ri";
 

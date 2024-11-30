@@ -2,7 +2,7 @@ import {
   DefaultInlineContentSchema,
   DefaultStyleSchema,
   InlineContentMapping,
-} from "@blocknote/core";
+} from "@endexai/blocknote-core";
 import { ExternalHyperlink, ParagraphChild, TextRun } from "docx";
 import type { DOCXExporter } from "../docxExporter.js";
 

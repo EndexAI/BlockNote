@@ -33,33 +33,33 @@ export default defineConfig((conf) => ({
         : {
             // Comment out the lines below to load a built version of blocknote
             // or, keep as is to load live from sources with live reload working
-            "@blocknote/core": path.resolve(__dirname, "../packages/core/src/"),
-            "@blocknote/react": path.resolve(
+            "@endexai/blocknote-core": path.resolve(__dirname, "../packages/core/src/"),
+            "@endexai/blocknote-react": path.resolve(
               __dirname,
               "../packages/react/src/"
             ),
-            "@blocknote/ariakit": path.resolve(
+            "@endexai/blocknote-ariakit": path.resolve(
               __dirname,
               "../packages/ariakit/src/"
             ),
-            "@blocknote/mantine": path.resolve(
+            "@endexai/blocknote-mantine": path.resolve(
               __dirname,
               "../packages/mantine/src/"
             ),
-            "@blocknote/shadcn": path.resolve(
+            "@endexai/blocknote-shadcn": path.resolve(
               __dirname,
               "../packages/shadcn/src/"
             ),
-            "@blocknote/xl-docx-exporter": path.resolve(
+            "@endexai/blocknote-xl-docx-exporter": path.resolve(
               __dirname,
               "../packages/xl-docx-exporter/src/"
             ),
-            "@blocknote/xl-pdf-exporter": path.resolve(
+            "@endexai/blocknote-xl-pdf-exporter": path.resolve(
               __dirname,
               "../packages/xl-pdf-exporter/src/"
             ),
             "@shared": path.resolve(__dirname, "../shared/"),
-            "@blocknote/xl-multi-column": path.resolve(
+            "@endexai/blocknote-xl-multi-column": path.resolve(
               __dirname,
               "../packages/xl-multi-column/src/"
             ),

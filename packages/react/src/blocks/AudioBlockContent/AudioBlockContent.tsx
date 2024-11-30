@@ -1,4 +1,4 @@
-import { FileBlockConfig, audioBlockConfig, audioParse } from "@blocknote/core";
+import { FileBlockConfig, audioBlockConfig, audioParse } from "@endexai/blocknote-core";
 
 import { RiVolumeUpFill } from "react-icons/ri";
 

@@ -1,11 +1,11 @@
-import "@blocknote/core/fonts/inter.css";
-import { BlockNoteView } from "@blocknote/mantine";
-import "@blocknote/mantine/style.css";
-import { useCreateBlockNote } from "@blocknote/react";
+import "@endexai/blocknote-core/fonts/inter.css";
+import { BlockNoteView } from "@endexai/blocknote-mantine";
+import "@endexai/blocknote-mantine/style.css";
+import { useCreateBlockNote } from "@endexai/blocknote-react";
 import {
   PDFExporter,
   pdfDefaultSchemaMappings,
-} from "@blocknote/xl-pdf-exporter";
+} from "@endexai/blocknote-xl-pdf-exporter";
 import { PDFViewer } from "@react-pdf/renderer";
 import { useEffect, useState } from "react";
 import "./styles.css";

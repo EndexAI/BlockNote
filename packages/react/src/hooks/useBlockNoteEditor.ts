@@ -7,7 +7,7 @@ import {
   DefaultStyleSchema,
   InlineContentSchema,
   StyleSchema,
-} from "@blocknote/core";
+} from "@endexai/blocknote-core";
 
 import { useBlockNoteContext } from "../editor/BlockNoteContext.js";
 

@@ -4,7 +4,7 @@ import {
   Dictionary,
   InlineContentSchema,
   StyleSchema,
-} from "@blocknote/core";
+} from "@endexai/blocknote-core";
 import { useMemo, useState } from "react";
 import type { IconType } from "react-icons";
 import {

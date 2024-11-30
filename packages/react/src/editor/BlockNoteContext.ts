@@ -7,7 +7,7 @@ import {
   DefaultStyleSchema,
   InlineContentSchema,
   StyleSchema,
-} from "@blocknote/core";
+} from "@endexai/blocknote-core";
 import { createContext, useContext, useState } from "react";
 
 type BlockNoteContextValue<

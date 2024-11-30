@@ -14,9 +14,9 @@ import {
   createExternalHTMLExporter,
   createInternalHTMLSerializer,
   nodeToBlock,
-} from "@blocknote/core";
+} from "@endexai/blocknote-core";
 
-import { BlockNoteViewRaw } from "@blocknote/react";
+import { BlockNoteViewRaw } from "@endexai/blocknote-react";
 import { Node } from "@tiptap/pm/model";
 import * as jsdom from "jsdom";
 import * as React from "react";

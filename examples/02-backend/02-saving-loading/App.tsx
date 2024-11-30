@@ -1,7 +1,7 @@
-import { Block, BlockNoteEditor, PartialBlock } from "@blocknote/core";
-import "@blocknote/core/fonts/inter.css";
-import { BlockNoteView } from "@blocknote/mantine";
-import "@blocknote/mantine/style.css";
+import { Block, BlockNoteEditor, PartialBlock } from "@endexai/blocknote-core";
+import "@endexai/blocknote-core/fonts/inter.css";
+import { BlockNoteView } from "@endexai/blocknote-mantine";
+import "@endexai/blocknote-mantine/style.css";
 import { useEffect, useMemo, useState } from "react";
 
 async function saveToStorage(jsonBlocks: Block[]) {

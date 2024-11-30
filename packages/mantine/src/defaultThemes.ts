@@ -1,4 +1,4 @@
-import { COLORS_DARK_MODE_DEFAULT, COLORS_DEFAULT } from "@blocknote/core";
+import { COLORS_DARK_MODE_DEFAULT, COLORS_DEFAULT } from "@endexai/blocknote-core";
 import { Theme } from "./BlockNoteTheme.js";
 
 export const defaultColorScheme = [

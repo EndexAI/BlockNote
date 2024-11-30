@@ -3,13 +3,13 @@ import {
   checkBlockIsFileBlock,
   InlineContentSchema,
   StyleSchema,
-} from "@blocknote/core";
+} from "@endexai/blocknote-core";
 import {
   useBlockNoteEditor,
   useComponentsContext,
   useDictionary,
   useSelectedBlocks,
-} from "@blocknote/react";
+} from "@endexai/blocknote-react";
 import { useEffect, useState } from "react";
 
 import { RiImageEditFill } from "react-icons/ri";

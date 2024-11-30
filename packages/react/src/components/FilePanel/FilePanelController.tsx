@@ -5,7 +5,7 @@ import {
   DefaultStyleSchema,
   InlineContentSchema,
   StyleSchema,
-} from "@blocknote/core";
+} from "@endexai/blocknote-core";
 import { UseFloatingOptions, flip, offset } from "@floating-ui/react";
 import { FC } from "react";
 

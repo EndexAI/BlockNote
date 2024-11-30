@@ -1,4 +1,4 @@
-import { BlockNoteSchema } from "@blocknote/core";
+import { BlockNoteSchema } from "@endexai/blocknote-core";
 import { testDocument } from "@shared/testDocument.js";
 import AdmZip from "adm-zip";
 import { Packer, Paragraph, TextRun } from "docx";

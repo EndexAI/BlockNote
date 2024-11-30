@@ -1,4 +1,4 @@
-import { Block } from "@blocknote/core";
+import { Block } from "@endexai/blocknote-core";
 import { describe, expect, it } from "vitest";
 import * as Y from "yjs";
 import { ServerBlockNoteEditor } from "./ServerBlockNoteEditor.js";

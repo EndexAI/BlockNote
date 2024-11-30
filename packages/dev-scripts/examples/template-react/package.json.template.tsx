@@ -1,7 +1,7 @@
 import type { Project } from "../util";
 
 const template = (project: Project) => ({
-  name: "@blocknote/example-" + project.projectSlug,
+  name: "@endexai/blocknote-example-" + project.projectSlug,
   description: "AUTO-GENERATED FILE, DO NOT EDIT DIRECTLY",
   private: true,
   version: "0.12.4",
@@ -13,11 +13,11 @@ const template = (project: Project) => ({
     lint: "eslint . --max-warnings 0",
   },
   dependencies: {
-    "@blocknote/core": "latest",
-    "@blocknote/react": "latest",
-    "@blocknote/ariakit": "latest",
-    "@blocknote/mantine": "latest",
-    "@blocknote/shadcn": "latest",
+    "@endexai/blocknote-core": "latest",
+    "@endexai/blocknote-react": "latest",
+    "@endexai/blocknote-ariakit": "latest",
+    "@endexai/blocknote-mantine": "latest",
+    "@endexai/blocknote-shadcn": "latest",
     react: "^18.3.1",
     "react-dom": "^18.3.1",
     ...(project.config?.dependencies || {}),

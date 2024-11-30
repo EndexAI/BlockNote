@@ -1,11 +1,11 @@
-import "@blocknote/core/fonts/inter.css";
-import { BlockNoteView } from "@blocknote/mantine";
-import "@blocknote/mantine/style.css";
+import "@endexai/blocknote-core/fonts/inter.css";
+import { BlockNoteView } from "@endexai/blocknote-mantine";
+import "@endexai/blocknote-mantine/style.css";
 import {
   LinkToolbar,
   LinkToolbarController,
   useCreateBlockNote,
-} from "@blocknote/react";
+} from "@endexai/blocknote-react";
 
 import { AlertButton } from "./AlertButton";
 

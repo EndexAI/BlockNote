@@ -1,7 +1,7 @@
 import { FileInput as MantineFileInput } from "@mantine/core";
 
-import { assertEmpty } from "@blocknote/core";
-import { ComponentProps } from "@blocknote/react";
+import { assertEmpty } from "@endexai/blocknote-core";
+import { ComponentProps } from "@endexai/blocknote-react";
 import { forwardRef } from "react";
 
 export const PanelFileInput = forwardRef<

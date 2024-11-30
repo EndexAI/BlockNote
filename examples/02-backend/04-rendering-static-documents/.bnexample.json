@@ -4,6 +4,6 @@
   "author": "yousefed",
   "tags": ["server"],
   "dependencies": {
-    "@blocknote/server-util": "latest"
+    "@endexai/blocknote-server-util": "latest"
   }
 }
