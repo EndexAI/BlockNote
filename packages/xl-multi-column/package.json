@@ -3,7 +3,7 @@
   "homepage": "https://github.com/TypeCellOS/BlockNote",
   "private": false,
   "license": "AGPL-3.0 OR PROPRIETARY",
-  "version": "0.19.2",
+  "version": "0.19.3",
   "files": [
     "dist",
     "types",
@@ -45,8 +45,8 @@
     "clean": "rimraf dist && rimraf types"
   },
   "dependencies": {
-    "@endexai/blocknote-core": "^0.19.2",
-    "@endexai/blocknote-react": "^0.19.2",
+    "@endexai/blocknote-core": "^0.19.3",
+    "@endexai/blocknote-react": "^0.19.3",
     "@tiptap/core": "^2.7.1",
     "prosemirror-model": "^1.23.0",
     "prosemirror-state": "^1.4.3",
