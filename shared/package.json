@@ -2,7 +2,7 @@
   "name": "@endexai/blocknote-shared",
   "homepage": "https://github.com/TypeCellOS/BlockNote",
   "private": true,
-  "version": "0.20.0",
+  "version": "0.20.1",
   "files": [
     "dist",
     "types",
@@ -13,7 +13,7 @@
     "clean": "tsc --build --clean"
   },
   "dependencies": {
-    "@endexai/blocknote-core": "^0.20.0"
+    "@endexai/blocknote-core": "^0.20.1"
   },
   "devDependencies": {
     "typescript": "^5.3.3"
