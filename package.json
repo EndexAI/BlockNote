@@ -16,7 +16,7 @@
     "eslint-plugin-import": "^2.31.0",
     "glob": "^10.3.10",
     "lerna": "^5.4.0",
-    "patch-package": "^6.4.7",
+    "patch-package": "^8.0.0",
     "typescript": "^5.3.3"
   },
   "scripts": {
