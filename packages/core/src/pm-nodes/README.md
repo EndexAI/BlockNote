@@ -1,4 +1,4 @@
-### @blocknote/core/src/pm-nodes
+### @endexai/blocknote-core/src/pm-nodes
 
 Defines the prosemirror nodes and base node structure. See below:
 

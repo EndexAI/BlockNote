@@ -1,10 +1,10 @@
 "use client";
 
 import { useYDoc, useYjsProvider, YDocProvider } from "@y-sweet/react";
-import { useCreateBlockNote } from "@blocknote/react";
-import { BlockNoteView } from "@blocknote/mantine";
+import { useCreateBlockNote } from "@endexai/blocknote-react";
+import { BlockNoteView } from "@endexai/blocknote-mantine";
 
-import "@blocknote/mantine/style.css";
+import "@endexai/blocknote-mantine/style.css";
 
 export default function App() {
   const docId = "my-blocknote-document";

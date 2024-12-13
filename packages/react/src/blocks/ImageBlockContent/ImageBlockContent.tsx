@@ -1,4 +1,4 @@
-import { FileBlockConfig, imageBlockConfig, imageParse } from "@blocknote/core";
+import { FileBlockConfig, imageBlockConfig, imageParse } from "@endexai/blocknote-core";
 import { RiImage2Fill } from "react-icons/ri";
 
 import {

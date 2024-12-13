@@ -3,7 +3,7 @@ import {
   InlineContentSchema,
   mergeCSSClasses,
   StyleSchema,
-} from "@blocknote/core";
+} from "@endexai/blocknote-core";
 import {
   BlockNoteViewProps,
   BlockNoteViewRaw,
@@ -11,7 +11,7 @@ import {
   ComponentsContext,
   useBlockNoteContext,
   usePrefersColorScheme,
-} from "@blocknote/react";
+} from "@endexai/blocknote-react";
 import { MantineProvider } from "@mantine/core";
 import { useCallback } from "react";
 

@@ -3,7 +3,7 @@ import {
   elementOverflow,
   SuggestionMenuProps,
   useBlockNoteEditor,
-} from "@blocknote/react";
+} from "@endexai/blocknote-react";
 import {
   Chip,
   List,

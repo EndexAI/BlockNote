@@ -5,7 +5,7 @@ import {
   PartialBlock,
   createBlockSpec,
   defaultProps,
-} from "@blocknote/core";
+} from "@endexai/blocknote-core";
 
 import { RiAlertFill } from "react-icons/ri";
 const values = {

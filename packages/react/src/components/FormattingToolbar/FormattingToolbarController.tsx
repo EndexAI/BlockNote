@@ -3,7 +3,7 @@ import {
   DefaultProps,
   InlineContentSchema,
   StyleSchema,
-} from "@blocknote/core";
+} from "@endexai/blocknote-core";
 import { UseFloatingOptions, flip, offset, shift } from "@floating-ui/react";
 import { FC, useMemo, useRef, useState } from "react";
 

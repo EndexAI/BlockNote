@@ -3,11 +3,11 @@ import {
   createBlockSpec,
   defaultBlockSpecs,
   defaultProps,
-} from "@blocknote/core";
-import "@blocknote/core/fonts/inter.css";
-import { useCreateBlockNote } from "@blocknote/react";
-import { BlockNoteView } from "@blocknote/mantine";
-import "@blocknote/mantine/style.css";
+} from "@endexai/blocknote-core";
+import "@endexai/blocknote-core/fonts/inter.css";
+import { useCreateBlockNote } from "@endexai/blocknote-react";
+import { BlockNoteView } from "@endexai/blocknote-mantine";
+import "@endexai/blocknote-mantine/style.css";
 
 import "./styles.css";
 

@@ -1,7 +1,7 @@
 import { Button as AriakitButton } from "@ariakit/react";
 
-import { assertEmpty, mergeCSSClasses } from "@blocknote/core";
-import { ComponentProps } from "@blocknote/react";
+import { assertEmpty, mergeCSSClasses } from "@endexai/blocknote-core";
+import { ComponentProps } from "@endexai/blocknote-react";
 import { forwardRef } from "react";
 
 export const ExtendButton = forwardRef<

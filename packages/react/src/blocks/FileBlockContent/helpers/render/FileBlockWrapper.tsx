@@ -1,4 +1,4 @@
-import { FileBlockConfig } from "@blocknote/core";
+import { FileBlockConfig } from "@endexai/blocknote-core";
 import { CSSProperties, ReactNode } from "react";
 
 import { useUploadLoading } from "../../../../hooks/useUploadLoading.js";

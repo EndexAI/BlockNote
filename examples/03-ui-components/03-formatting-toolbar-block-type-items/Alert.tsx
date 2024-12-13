@@ -1,5 +1,5 @@
-import { defaultProps } from "@blocknote/core";
-import { createReactBlockSpec } from "@blocknote/react";
+import { defaultProps } from "@endexai/blocknote-core";
+import { createReactBlockSpec } from "@endexai/blocknote-react";
 import { Menu } from "@mantine/core";
 import { MdCancel, MdCheckCircle, MdError, MdInfo } from "react-icons/md";
 

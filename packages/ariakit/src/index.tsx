@@ -3,13 +3,13 @@ import {
   InlineContentSchema,
   mergeCSSClasses,
   StyleSchema,
-} from "@blocknote/core";
+} from "@endexai/blocknote-core";
 import {
   BlockNoteViewProps,
   BlockNoteViewRaw,
   Components,
   ComponentsContext,
-} from "@blocknote/react";
+} from "@endexai/blocknote-react";
 
 import { Form } from "./input/Form.js";
 import { TextInput } from "./input/TextInput.js";

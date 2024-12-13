@@ -1,5 +1,5 @@
-import { BlockNoteEditor, defaultProps } from "@blocknote/core";
-import { createReactBlockSpec } from "@blocknote/react";
+import { BlockNoteEditor, defaultProps } from "@endexai/blocknote-core";
+import { createReactBlockSpec } from "@endexai/blocknote-react";
 import { RiImage2Fill } from "react-icons/ri";
 
 export const ReactImage = createReactBlockSpec(

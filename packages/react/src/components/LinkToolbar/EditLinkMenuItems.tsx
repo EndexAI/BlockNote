@@ -1,4 +1,4 @@
-import { DEFAULT_LINK_PROTOCOL, VALID_LINK_PROTOCOLS } from "@blocknote/core";
+import { DEFAULT_LINK_PROTOCOL, VALID_LINK_PROTOCOLS } from "@endexai/blocknote-core";
 import {
   ChangeEvent,
   KeyboardEvent,
